@@ -1,0 +1,228 @@
+html {
+    background: linear-gradient(to bottom, #0b3c5b, #041b3b);
+    background-attachment: fixed;
+    color: white;
+}
+* {
+    font-family: Arial;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+  
+}
+
+#header-links {
+    display: none;
+}
+
+header {
+    display: flex;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background-color: #0b3c5b;
+    min-height: 50px;
+    line-height: 50px;
+}
+
+#logo {
+    margin-right: auto;
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+
+#openbtn {
+    border: none;
+    background-color: #2c6f99;
+    color: white;
+    margin-right: 12px;
+    width: 40px;
+    height: 40px;
+    margin-top: 1%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#openbtn:hover, #openbtn:active {
+    background-color: #0b3c5b;
+}
+
+
+
+h1 {
+    margin-top: 4em;
+    margin-left: 1rem;
+    
+}
+
+h3 {
+    color: #0b86c7ff;
+    margin-left: 1rem;
+}
+
+figure{
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 6rem
+}
+
+#targetbtn{
+    display: flex;
+}
+
+.btn{
+    border-radius: 10px;
+    border: 2px solid #49bcefff;
+    margin: 0px 10px;
+    width: 120px;
+    height: 35px;
+    background-color: #0b3c5b;
+    color: white;
+    box-shadow: 5px 5px 5px black;
+}
+
+#targetbtn1:hover {
+    background-color: #49bcefff;
+    cursor: pointer;
+}
+
+#targetbtn2:hover{
+    background-color: #49bcefff;
+    cursor: pointer;
+}
+
+#targetbtn1:active {
+    background-color: #49bcefff;
+    width: 140px;
+    height: 40px;
+}
+
+#targetbtn2:active{
+    background-color: #49bcefff;
+    width: 140px;
+    height: 40px;
+}
+
+#author-img {
+    width: 70vw;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px black; 
+    margin-bottom: 3rem;
+}
+
+h2 {
+    text-align: center;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.goals{
+    padding: 0 10px;
+  /*  background-color: green; */
+    min-width: 400px;
+    max-width: 800px;
+}
+
+.goals p {
+    text-align: center;
+    margin-top: 0px;
+    width: 200px;
+    max-width: 500px;
+    background-color: black;
+    padding: 15px;
+    border-top-left-radius: .5em;
+    border-top-right-radius: 2em;
+    border-bottom-right-radius: 2em;
+    border-bottom-left-radius: 2em;
+}
+
+.goals p:nth-last-child(2n) {
+    text-align: center;
+    margin-top: 0px;
+    width: 200px;
+    max-width: 500px;
+    background-color: black;
+    padding: 15px;
+    border-top-left-radius: 2em;
+    border-top-right-radius: .5em;
+    border-bottom-right-radius: 2em;
+    border-bottom-left-radius: 2em;
+}
+
+
+
+
+#goal2{
+    margin-left: auto
+}
+
+#goal4 {
+    margin-left: auto;
+}
+
+#sidebar {
+    width: 0px;
+    overflow-x: hidden;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    height: 100%;
+    transition: 0.5s;
+    z-index: 1;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+#sidebar #closebtn {
+    width: 50px;
+    height: 50px;
+    color: white;
+    background-color: black;
+    border: none;
+    
+}
+
+#sidebar ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin-top: 20%;
+    line-height: 50px;
+    margin-left: 100px;
+}
+#sidebar ul a {
+    text-decoration: none;
+    color: white;
+}
+#sidebar ul a:hover{
+    color: #0b3c5b;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 5em;
+}
+
+#slack-icon, #facebook-icon, #email-icon, #linkedin-icon {
+    margin-right: 35px;
+}
+
+#achievements li{
+    list-style-image: url('/icons/icons8-round.svg');
+    line-height: 50px;
+}
+
+#achievements{
+    margin-left: 10px;]
+    margin-right: 10px;
+}

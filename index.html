@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="/style.css">
+  <link rel="stylesheet" type="text/css" href="media-queries/screen768.css" media="(min-width: 768px)">
+  <link rel="stylesheet" type="text/css" href="media-queries/screen992.css" media="(min-width: 992px)">
+  <title>Document</title>
+</head>
+<body>
+  <header>
+    <div id="logo">{userName}.</div>
+    <ul id="header-links">
+      <li class="links"><a href="#">Home</a></li>
+      <li class="links"><a href="#footer">Contact</a></li>
+      <li class="links"><a href="#goals">Goals</a></li>
+    </ul>
+
+    <button id="openbtn" onClick="openNav()">=</button>
+  </header>
+
+  <main>
+    <div id="sidebar" onClick="closeNav()">
+      <button id="closebtn" onClick="closeNav()">&times;</button>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#footer">Contact</a></li>
+        <li><a href="#goals">Goals</a></li>
+        
+      </ul>
+    </div>
+      <div id="main-section">
+        <div id="new-grid">
+        <div id="intro">
+          <h1>Hi, I'm Deborah</h1>
+          <h3>Frontend Developer</h3>
+        </div>
+        <figure>
+          <img id="author-img" src="images/IMG.jpg">
+          <div id="targetbtn">
+            <button id="targetbtn1" class="btn" onClick="goals()">Goals</button>
+            <button id="targetbtn2" class="btn" onClick="achievements()">Achievements</button>
+          </div>
+        </figure>
+    </div>
+      <section>
+        <h2>My Goals</h2>
+        <div class="goals" id="goals">
+          <p id="goal1">Learn Modern Html, Css, and Vanilla JS</p>
+          <p id="goal2">Learn to use ReactJS to build Single Page Applications</p>
+          <p id="goal3">Get familiar with ExpressJS and NodeJS for backend development</p>
+          <p id="goal4">Learn to use MongoDB for non-relational databases</p>
+          <p id="goal5">Build an e-commerce website where buyers and retailers can interact</p>
+        </div>
+        <div>
+          <h2>Achievements</h2>
+          <p style="margin-left: 15px;">So far, I have been able to achieve the following on my tech journey.</p>
+          <ul id="achievements">
+            <li>Learnt the foundation of Html5, Css3, and vanilla JS</li>
+            <li>Unlocked a level creativity and I have been able to apply them to my designs</li>
+            <li>Gotten a hang of basic UI and UX principles and been able to tailor my responsive designs accordingly.</li>
+          </ul>
+        </div>
+      </section>
+    </div>
+
+  </main>
+
+  <footer id="footer">
+    <img id="slack-icon" src="icons/icons8-slack.svg">
+    <img id="facebook-icon" src="icons/icons8-facebook.svg">
+    <img id="email-icon" src="icons/icons8-email-16.png">
+    <img id="linkedin-icon" src="icons/icons8-linkedin.svg">
+    <img id="x-icon" src="icons/icons8-x.svg">
+  </footer>
+
+  <script src="/script.js"></script>
+</body>
+</html>
